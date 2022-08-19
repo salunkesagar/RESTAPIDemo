@@ -63,6 +63,8 @@ public class StepDefinition  extends Utils {
 	    	else if(method.equalsIgnoreCase("Get"))
 	    		res1 = req1.when().get(resourceAPI.getResource())
     			.then().spec(res).extract().response();
+	    	
+	    	System.out.println("This is new line for GIT");
 	    		
 	        
 	    }
